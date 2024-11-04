@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2C3E50, #34495E); /* Dark blue and grey gradient */
+}
+
+/* Form Container */
+.form-container {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background: linear-gradient(135deg, #2C3E50, #34495E);
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    color: #EAF0F1; /* Light grey for labels */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #EAF0F1; /* Light grey input fields */
+    color: #2C3E50;
+}
+
+/* Resume Container */
+.resume-container {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background: linear-gradient(135deg, #34495E, #2C3E50); /* Dark blue to grey gradient inside the resume */
+    color: white;
+}
+
+/* Font Sizes */
+h1, h2 {
+    color: #EAF0F1;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
